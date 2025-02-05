@@ -81,7 +81,7 @@ To fine-tune AI behavior, several parameters were adjusted:
 ### **📂 Installation Steps**
 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-username/personalized-study-assistant.git
+git clone https://github.com/Nardos24/Personalized-Study-Assistant.git
 cd personalized-study-assistant
 ```
 

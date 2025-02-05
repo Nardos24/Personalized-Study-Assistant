@@ -1,0 +1,12 @@
+def format_bullet_points(text):
+    """Converts AI output to bullet points."""
+    points = text.split("\n")
+    return "\n".join([f"- {point.strip()}" for point in points if point])
+
+def format_paragraph(text):
+    """Ensures output is a readable paragraph."""
+    return text.replace("\n", " ")
+def format_response(response, output_format):
+    if output_format == "Bullet Points":
+        return "\n- " + response.replace(". ", "\n- ")
+    return response
